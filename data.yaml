@@ -1,0 +1,22 @@
+# CRITICAL FIX: Directly specifying the absolute paths using the correct folder name.
+
+# NOTE: You MUST replace the text 'Waste_Detection.v1.yolov8n' below 
+# with the ACTUAL name of the folder found inside C:\...\circuscan_app\runs\detect\
+
+# The path to your validation images folder (must be the real path on your machine)
+val: C:/Users/pavan/OneDrive/Desktop/circuscan_app/runs/detect/val/valid/images 
+
+# The path to your training images folder (must be the real path on your machine)
+train: C:/Users/pavan/OneDrive/Desktop/circuscan_app/runs/detect/val/train/images 
+
+# The path to your testing images folder (must be the real path on your machine)
+test: C:/Users/pavan/OneDrive/Desktop/circuscan_app/runs/detect/val/test/images
+
+# --- Class names ---
+names:
+  0: Apple
+  1: Carrot
+  2: Glass_Bottle
+  3: Glass-Plate
+  4: Paper
+  5: Plastic-Bottle
